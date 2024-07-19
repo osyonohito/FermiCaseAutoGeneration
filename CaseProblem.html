@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/static/css/style.css">
+    <title>フェルミケース お題</title>
+</head>
+<body class="case">
+    <header>
+        <h1 class="headline case">
+            <button id="fermiChange" onclick="fermiChange()">フェルミ</button>
+            <button id="caseChange">ケース</button>
+        </h1>
+    </header>
+    <h1 class="case">ケース問題 お題</h1>
+    <div>
+        <button class="case" onclick="generateCase()">お題を生成する</button>
+    </div>
+    <div id="problem" class="problem">ここにお題が表示されます</div>
+    <div class="illustration">
+        <img src="resource/static/images/illustration.png" alt="ケースの人" width="300">
+    </div>
+    <script src="resource/static/js/case.js"></script>
+    <div class="footer">
+        <p>毎日のフェルミ・ケース問題にお困りのあなたに捧ぐ</p>
+        <p>©2024 ぜろしき</p>
+    </div>
+</body>
+</html>
